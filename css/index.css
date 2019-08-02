@@ -391,6 +391,11 @@ nav a:hover {
   color: #e8e8e8;
   background: none;
 }
+@media (max-width: 500px) {
+  nav a {
+    font-size: 100%;
+  }
+}
 .navtop {
   display: flex;
   align-items: flex-end;
@@ -486,5 +491,5 @@ footer {
 }
 .privacy {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-ar;
 }
