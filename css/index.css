@@ -140,6 +140,7 @@ a {
   border-radius: 30px;
   background-color: #252525;
   color: #f3e367;
+  text-decoration: none;
 }
 button:hover,
 a:hover {
@@ -380,12 +381,15 @@ header nav {
   }
 }
 nav a {
+  font-size: 30px;
+  background: none;
   padding: 10px;
   text-decoration: none;
   color: #f3e367;
 }
 nav a:hover {
   color: #e8e8e8;
+  background: none;
 }
 .navtop {
   display: flex;
@@ -466,4 +470,21 @@ footer {
   align-items: center;
   flex-direction: column-reverse;
   justify-content: center;
+}
+.social-content {
+  display: flex;
+  justify-content: center;
+}
+.social-content a {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-content a:hover {
+  color: #202020;
+}
+.privacy {
+  display: flex;
+  justify-content: space-around;
 }
